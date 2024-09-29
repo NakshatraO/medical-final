@@ -21,22 +21,21 @@ body {
 }
 
 .main-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    display: flex; 
+    padding: 20px 80px;
 }
 
-.filters {
-    width: 20%;
+.description-vitamins {
+    flex: 1; 
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .product-container {
-    width: 75%;
-    margin-left: 20px;
+    flex: 2; 
+    padding: 10px 80px;
 }
 
 .product-list {
@@ -51,9 +50,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: calc(25% - 20px);
+    width: calc(25% - 20px); /* Adjust for gaps */
     box-sizing: border-box;
-    position: relative;
 }
 
 .product-card img {
@@ -106,4 +104,9 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
 }
