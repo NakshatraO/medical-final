@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Pharmacy Website</title>
-    <link rel="stylesheet" href="medicines.css">
+    <link rel="stylesheet" href="styles/skincare.css">
 </head>
 <body>
 
@@ -33,38 +33,30 @@
 </header>
 
 <div class="main-container">
-    <!-- Filters Sidebar -->
     <div class="filters">
         <h3>Filters</h3>
-        <input type="search" placeholder="Search brands...">
+        <input type="search" placeholder="Search brands..." id="brand-search">
         <h4>Brands</h4>
-        <ul>
-            <li><input type="checkbox" id="brand1"> <label for="brand1">Brand 1</label></li>
-            <li><input type="checkbox" id="brand2"> <label for="brand2">Brand 2</label></li>
-            <li><input type="checkbox" id="brand3"> <label for="brand3">Brand 3</label></li>
-            <!-- Add more brands here -->
-        </ul>
+        <select id="brand-filter">
+            <!-- Brand options will be populated here by JavaScript -->
+        </select>
         <h4>Manufacturers</h4>
         <ul>
             <li><input type="checkbox" id="manufacturer1"> <label for="manufacturer1">Manufacturer 1</label></li>
             <li><input type="checkbox" id="manufacturer2"> <label for="manufacturer2">Manufacturer 2</label></li>
-            <!-- Add more manufacturers here -->
         </ul>
     </div>
 
-    <!-- Products List -->
     <div class="product-container">
         <h2>All Products</h2>
         <div class="product-list" id="product-list">
-            <!-- Product items will be inserted here by JavaScript -->
+            <!-- Products will be loaded here -->
         </div>
-    
     </div>
-    <div id="product-list"></div>
-
 </div>
 
-<script src="medicine.js"></script>
+<!-- Link to the external JavaScript file -->
+<script src="javaScript/skincare.js"></script>
 
 </body>
 </html>

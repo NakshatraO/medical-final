@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Pharmacy Website</title>
-    <link rel="stylesheet" href="skincare.css">
+    <link rel="stylesheet"href="styles/ayurveda.css">
+    
 </head>
 <body>
 
@@ -35,11 +36,13 @@
 <div class="main-container">
     <div class="filters">
         <h3>Filters</h3>
-        <input type="search" placeholder="Search brands..." id="brand-search">
+        <input type="search" placeholder="Search brands...">
         <h4>Brands</h4>
-        <select id="brand-filter">
-            <!-- Brand options will be populated here by JavaScript -->
-        </select>
+        <ul>
+            <li><input type="checkbox" id="brand1"> <label for="brand1">Brand 1</label></li>
+            <li><input type="checkbox" id="brand2"> <label for="brand2">Brand 2</label></li>
+            <li><input type="checkbox" id="brand3"> <label for="brand3">Brand 3</label></li>
+        </ul>
         <h4>Manufacturers</h4>
         <ul>
             <li><input type="checkbox" id="manufacturer1"> <label for="manufacturer1">Manufacturer 1</label></li>
@@ -56,7 +59,7 @@
 </div>
 
 <!-- Link to the external JavaScript file -->
-<script src="skincare.js"></script>
+<script src="javaScript/ayurveda.js"></script>
 
 </body>
 </html>
