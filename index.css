@@ -206,7 +206,8 @@ header {
 }
 
 footer {
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
+    background-color: #333;
     padding: 40px 20px;
 }
 
@@ -225,7 +226,8 @@ footer {
 
 .footer-column h3 {
     font-size: 18px;
-    color: #333;
+    /* color: #333; */
+    color: #ccc;
     margin-bottom: 15px;
 }
 
@@ -239,11 +241,13 @@ footer {
 }
 
 .footer-column ul li a {
-    color: #555;
+    /* color: #555; */
+    color: #ccc;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-column ul li a:hover {
-    color: #34d1bf;
+    /* color: #34d1bf; */
+    color: #2aa1a3;
 }
