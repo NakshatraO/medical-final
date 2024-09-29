@@ -1,103 +1,85 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
-header {
-    background-color: #34d1bf;
-    padding: 10px 20px;
-}
+
 .header-container {
+    background-color: #34d1bf;
+    color: white;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
 }
-.header-container .logo img {
-    height: 50px;
-    margin-right: 10px;
-}
-.header-container .header-actions a {
+
+.header-container a {
     color: white;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    margin-left: 15px;
 }
-.header-container .header-actions img {
-    height: 24px;
-}
+
 .main-container {
-    display: flex;
-    max-width: 1200px;
-    margin: 20px auto;
+    display: flex; 
+    padding: 20px 80px;
+}
+
+.description-shampoo {
+    flex: 1; 
+    background-color: white;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.filters {
-    width: 20%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(166, 243, 122, 0.1);
-}
-.filters h3 {
-    margin-bottom: 10px;
-}
-.filters ul {
-    list-style: none;
-    padding: 0;
-}
-.filters ul li {
-    margin-bottom: 10px;
-}
-.filters input[type="search"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
+
 .product-container {
-    width: 75%;
-    margin-left: 20px;
+    flex: 2; 
+    padding: 10px 80px;
 }
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
-.product-item {
-   flex: 1 1 calc(33.333% - 20px);
-    width: 15%;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 8px;
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    position: relative;
+    text-align: center;
+    width: calc(25% - 20px); /* Adjust for gaps */
+    box-sizing: border-box;
 }
-.product-item img {
-    height: 150px;
-    width: auto;
-    display: block;
-    margin: 0 auto 15px;
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
-.product-item h3 {
-    margin: 15px 0;
-    color: #333;
+
+.product-card h3 {
     font-size: 16px;
-    line-height: 1.2;
+    margin: 10px 0;
+    color: #333;
 }
-.product-item .price {
-    color: #34d1bf;
+
+.product-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.product-card .price {
     font-size: 18px;
-    margin-bottom: 15px;
+    color: #34d1bf;
+    margin-bottom: 10px;
 }
-.product-item button {
+
+.product-card button {
     padding: 10px;
     width: 100%;
     background-color: #34d1bf;
@@ -108,10 +90,12 @@ header {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-.product-item button:hover {
+
+.product-card button:hover {
     background-color: #28a796;
 }
-.product-item .badge {
+
+.product-card .badge {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -121,33 +105,8 @@ header {
     border-radius: 5px;
     font-size: 14px;
 }
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 
-.product-card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 15px;
-    width: 200px;
+h1{
     text-align: center;
-    background-color: #f9f9f9;
-}
-
-.product-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.product-card h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-.product-card p {
-    font-size: 14px;
-    margin: 5px 0;
+    text-decoration: underline;
 }
