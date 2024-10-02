@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pharmacy Website</title>
+    <title>Medical Store</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-
 <body>
     <div class="promo-banner">
         Avail Flat 20% OFF on all Medicines, Use Code: MEDS20. Minimum Order Value: Rs.750/- | T & C apply.
     </div>
-
+    <!-- Navigation Bar -->
     <header>
         <div class="header-container">
             <div class="header-top">
@@ -63,8 +60,7 @@
 
     <div class="category-list">
         <a href="vitamins.html" class="category-item vitamins">
-            <!-- <img src="https://via.placeholder.com/100?text=V" alt="Vitamins"> -->
-             <img src="images/vitaminsSupplements.jpeg" alt="Vitamins and Supplements">
+            <img src="images/vitaminsSupplements.jpeg" alt="Vitamins and Supplements">
             <h3>Vitamins & Supplements</h3>
         </a>
         <a href="medicines.html" class="category-item wellness">
@@ -89,47 +85,91 @@
         </a>
     </div>
 
-    <!-- <div class="WhyChooseUs">
-<h1>Why Choose Us?</h1>
-<div class="WhyChooseUsList">
-    
-</div>
-</div> -->
-
-    <!-- <div class="Review">
-<div class="ReviewBlock">
-    
-</div>
-</div> -->
-
-    <footer>
-        <div class="footer-container">
-            <div class="footer-column">
-                <h3>About Us</h3>
-                <ul>
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">Mission & Values</a></li>
-                    <li><a href="file:///E:/Nakshatra/MedicalStoreProject/medical-final/feedbackForm.html">Feedback Form</a></li>
-                </ul>
+    <!-- Why Choose Us Section -->
+    <section class="whyChooseUs" id="whyChooseUs">
+        <h2>Why Choose Us?</h2>
+        <div class="whyChooseUs-content">
+            <div>
+                <h3>High-Quality Products</h3>
+                <p>We offer only the best and most trusted products for your health needs.</p>
             </div>
-            <div class="footer-column">
-                <h3>Customer Service</h3>
-                <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Help & FAQs</a></li>
-                    <li><a href="#">Shipping & Returns</a></li>
-                </ul>
+            <div>
+                <h3>Affordable Prices</h3>
+                <p>Our products are priced to be budget-friendly while maintaining premium quality.</p>
             </div>
-            <div class="footer-column">
-                <h3>Follow Us</h3>
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f">Facebook</i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter">Twitter</i></a></li>
-                </ul>
+            <div>
+                <h3>Customer Satisfaction</h3>
+                <p>We prioritize customer satisfaction by providing top-notch service and support.</p>
             </div>
         </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="ourServices" id="ourServices">
+        <h2>Our Services</h2>
+        <div class="services-content">
+            <div>
+                <h3>Home Delivery</h3>
+                <p>We deliver your medications right to your doorstep in the quickest time possible.</p>
+            </div>
+            <div>
+                <h3>Consultation</h3>
+                <p>Speak with our experts to get advice on your health and well-being.</p>
+            </div>
+            <div>
+                <h3>Wide Range of Products</h3>
+                <p>From supplements to skincare, we have a wide variety of medical products.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Form -->
+    <section class="feedback" id="feedback">
+        <h2>Feedback Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Riya Sharma" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="riyasharma@gmail.com" required>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Good</option>
+                <option value="3">3 - Average</option>
+                <option value="2">2 - Poor</option>
+                <option value="1">1 - Very Poor</option>
+            </select>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" placeholder="Your services are b..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contactUs" id="contactUs">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div>
+                <h3>Address</h3>
+                <p>123 Medical Street, Pune, India</p>
+            </div>
+            <div>
+                <h3>Email</h3>
+                <p>info@medicalstore.com</p>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <p>+91 9876543210</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Medical Store. All rights reserved.</p>
     </footer>
-
 </body>
-
 </html>
