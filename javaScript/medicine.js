@@ -100,17 +100,6 @@ const productData = [
     },
     {
       image_url:
-        "https://cdn01.pharmeasy.in/dam/products/060175/dorzox-eye-drops-5ml-1-1641535227.jpg?dim=320x320&dpr=1&q=100",
-      name: "Dorzox Eye Drops 5ml",
-      mfgby: "By CIPLA LIMITED",
-      description: "5ml Eye Drop in Bottle",
-      price: 376.40,
-      quantity:1,
-      strikedoffprice: 459.00,
-      uniqueid:"#m10"
-    },
-    {
-      image_url:
         "https://cdn01.pharmeasy.in/dam/products/066200/emeset-4mg-tablet-2-1641535237.jpg?dim=320x320&dpr=1&q=100",
       name: "Emeset 4mg Tablet",
       mfgby: "By CIPLA LIMITED",
@@ -118,7 +107,7 @@ const productData = [
       price: 43.15,
       quantity:1,
       strikedoffprice: 52.50,
-      uniqueid:"#m11"
+      uniqueid:"#m10"
     },
     {
       image_url:
@@ -129,7 +118,7 @@ const productData = [
       price: 200,
       quantity:1,
       strikedoffprice: 250,
-      uniqueid:"#m12"
+      uniqueid:"#m11"
     },
     {
       image_url:
@@ -140,7 +129,7 @@ const productData = [
       price: 19.79,
       quantity:1,
       strikedoffprice: 24.13,
-      uniqueid:"#m13"},
+      uniqueid:"#m12"},
     {
       image_url:
         "https://cdn01.pharmeasy.in/dam/products/242144/hcqs-300mg-tablet-2-1641532273.jpg?dim=320x320&dpr=1&q=100",
@@ -150,7 +139,7 @@ const productData = [
       price: 137.88,
       quantity:1,
       strikedoffprice: 168.15,
-      uniqueid:"#m14"
+      uniqueid:"#m13"
     },
     {
       image_url:
@@ -161,7 +150,7 @@ const productData = [
       price: 361.88,
       quantity:1,
       strikedoffprice: 441.00,
-      uniqueid:"#m15",
+      uniqueid:"#m14",
     },
     {
       image_url:
@@ -172,18 +161,7 @@ const productData = [
       price: 332.10,
       quantity:1,
       strikedoffprice: 405.00,
-      uniqueid:"#m16"
-    },
-    {
-      image_url:
-        "https://cdn01.pharmeasy.in/dam/products/I14823/kz-plus-bottle-of-75ml-lotion-1-1641537572.jpg?dim=320x320&dpr=1&q=100",
-      name: "Kz Plus Bottle Of 75ml Lotion",
-      mfgby: "By HEGDE AND HEGDE PHARMACEUTICA LLP",
-      description: "75ml Lotion in Bottle",
-      price: 314.06,
-      quantity:1,
-      strikedoffprice: 383.00,
-      uniqueid:"#m17"
+      uniqueid:"#m15"
     },
     {
       image_url:
@@ -194,7 +172,7 @@ const productData = [
       price: 451.00,
       quantity:1,
       strikedoffprice: 550,
-      uniqueid:"#m18"
+      uniqueid:"#m16"
     },
     {
       image_url:
@@ -205,7 +183,7 @@ const productData = [
       price: 154.98,
       quantity:1,
       strikedoffprice: 189.00,
-      uniqueid:"#m19"
+      uniqueid:"#m17"
     },
     {
       image_url:
@@ -216,7 +194,7 @@ const productData = [
       price: 35.59,
       quantity:1,
       strikedoffprice: 43.40,
-      uniqueid:"#m20"
+      uniqueid:"#m18"
     },
     {
       image_url:
@@ -227,7 +205,7 @@ const productData = [
       price: 142.85,
       quantity:1,
       strikedoffprice: 174.00,
-      uniqueid:"#m21"
+      uniqueid:"#m19"
     },
     {
       image_url:
@@ -238,7 +216,7 @@ const productData = [
       price: 89.13,
       quantity:1,
       strikedoffprice: 108.70,
-      uniqueid:"#m22"
+      uniqueid:"#m20"
     },
     {
       image_url:
@@ -249,7 +227,7 @@ const productData = [
       price: 111.04,
       quantity:1,
       strikedoffprice: 134.50,
-      uniqueid:"#m23"
+      uniqueid:"#m21"
     },
     {
       image_url:
@@ -260,7 +238,7 @@ const productData = [
       price: 150.06,
       quantity:1,
       strikedoffprice: 183.00,
-      uniqueid:"#m24"
+      uniqueid:"#m22"
     },
     {
       image_url:
@@ -271,7 +249,7 @@ const productData = [
       price: 91.50,
       quantity:1,
       strikedoffprice: 112,
-      uniqueid:"#m25"
+      uniqueid:"#m23"
     },
     {
       image_url:
@@ -282,7 +260,7 @@ const productData = [
       price: 446.90,
       quantity:1,
       strikedoffprice: 545.90,
-      uniqueid:"#m26"
+      uniqueid:"#m24"
     },];
 
 
